@@ -1,0 +1,18 @@
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+table,
+td {
+    border-style: solid;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.just-padding {
+    padding: 10px;
+}
