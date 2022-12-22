@@ -4,19 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <h2>Contact Me</h2>
-    <form action="https://httpbin.org/get">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="messege">Messege</label><br>
-        <textarea type="text" id="messege" name="messege" style="height : 5em; width: 16em;"></textarea><br><br>
-        <input type="submit" value="SUBMIT">
-    </form>
+    <div class="center">
+        <h2>Contact Me</h2>
+        <form action="mailto:nano111atom@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required size="30"><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" size="30"><br><br>
+            <label for="messege">Messege</label><br>
+            <textarea type="text" id="messege" name="messege" rows="8" cols="40" required></textarea><br><br>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+    <br>
 </body>
+<footer>
+    <hr>
+    <div class="center">
+        <a href="./index.html"><strong>Back</strong></a>
+    </div>
+</footer>
 
 </html>

@@ -1,0 +1,56 @@
+body {
+    background-color: #25316D;
+    color: #FFFBEB;
+}
+
+table {
+    margin: 10px;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #FFFBEB;
+}
+
+img {
+    border-radius: 50%;
+}
+
+a {
+    color: #97D2EC;
+}
+
+hr {
+    border-color: #97D2EC;
+    border-style: none none dashed;
+    border-width: 2px;
+    width: 30%
+}
+
+h2,
+legend {
+    color: #FEF5AC;
+}
+
+.bordered {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.banner {
+    background-color: #5F6F94;
+    border-radius: 20px;
+}
+
+.round-corner {
+    border-radius: 20px;
+}
+
+.just-padding {
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}

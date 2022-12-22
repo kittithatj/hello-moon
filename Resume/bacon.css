@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+    font-size: 80px;
+}
+
+img {
+    background-color: white;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+.bacon {
+    background-color: lightgreen;
+}
+
+.broc {
+    background-color: lightcoral;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+#heading {
+    color: blue;
+}
