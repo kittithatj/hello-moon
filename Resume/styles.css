@@ -4,9 +4,9 @@ tfoot {
     color: #fff;
 }
 
-table,
-td {
-    border-style: solid;
+.bordered {
+    border: 1px solid;
+    border-collapse: collapse;
 }
 
 img {
